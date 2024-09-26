@@ -6,14 +6,16 @@
  
 
  .body{
-    background-color: #000000;
+    background-color: #000000; /* This makes the whole background black */
+    color: #ffffff; /* This makes all text in body white */
 }
 .table-borders {
-    border: 12px dashed #154053;
+    border: 12px dashed #159a34;
+    color: #ffffff; /* This makes all text in table white */
 }
 
 #photo-styling {
-    max-width: 200px;
-    max-height: 250px;
+    max-width: 100px;
+    max-height: 100px;
     border: 2px outset green;
 }
